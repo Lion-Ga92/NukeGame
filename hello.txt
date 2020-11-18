@@ -1,3 +1,11 @@
-hello
-it is I 
-the Great CARLANO
+OK we must add a few notes here cuz it seems that for some reason when i try to push the local git to the github
+i end up somehow not targetting an actual src ref which means that it is unable to load the files. 
+but if i do the following process it does seems to allow me to push to github
+i will signal the steps in #
+#git init 
+#git add "some files"
+#git commit -m "the notes"
+#git push
+#At this stage i need the log in data#
+#Username
+#Password
