@@ -1,20 +1,30 @@
 import sys
 import random
+import time
 
 
 def intro_of_game():
+    print("+++++++++++++++++++++++++++")
+    time.sleep(2)
+    print("++++++++++++++++++++++++++++++++")
+    time.sleep(2)
     print("++++++++++++++++++++++++++++++++++++++++")
-    print("++++++++++++++++++++++++++++++++++++++++")
-    print("++++++++++++++++++++++++++++++++++++++++")
-    print("++++++++++++++++++++++++++++++++++++++++")
+    time.sleep(2)
+    print("+++++++++++++++++++=====+++++++++++++++++++++")
+    time.sleep(1)
     print("==COMMAND ACCESS NETWORK SECURE SERVER==")
 #For future iterations of this program i need to a method that can delay the time between each function
 #To give a sense of loading screen time
+    time.sleep(1)
     print("== +ALERT+ ACCESS TO THIS STATION HAS BEEN DETECTED, PERMISSION QUERY WILL FOLLOW +ALERT+==")
+    time.sleep(1)
     print("Hostile intrusion to this system has been detected, delayanced protocols have been initiated")
+    time.sleep(1)
     allowed_users = ("Luis", "Dania", "Zach")
     print("There are only three allowed users to this computer, their names are: ")
+    time.sleep(1)
     print("[Luis], [Dania], [Zach], please type exactly as presented by the C-A-N")
+    time.sleep(1)
     allow_user = input("Please enter username: ")
 
     if allow_user in allowed_users:
