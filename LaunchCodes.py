@@ -13,8 +13,8 @@ def intro_of_game():
     print("== +ALERT+ ACCESS TO THIS STATION HAS BEEN DETECTED, PERMISSION QUERY WILL FOLLOW +ALERT+==")
     print("Hostile intrusion to this system has been detected, delayanced protocols have been initiated")
     allowed_users = ("Luis", "Dania", "Zach")
-    print("There are only three allowed users to this computer, their names names start with the following: ")
-    print("[L], [D], [Z]")
+    print("There are only three allowed users to this computer, their names are: ")
+    print("[Luis], [Dania], [Zach], please type exactly as presented by the C-A-N")
     allow_user = input("Please enter username: ")
 
     if allow_user in allowed_users:
